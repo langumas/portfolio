@@ -34,7 +34,7 @@ export const ThemeToggle = () => {
             "focus:outline-hidden"
         )}>
             {" "}
-            {isDarkMode ? (<Star className="h-6 w-6 text-pink-300" /> 
+            {isDarkMode ? (<Star className="h-6 w-6 text-primary" /> 
             ): (
             <Moon className="h-6 w-6 text-blue-900"/> 
             )}
